@@ -18,8 +18,6 @@ body {
 
 .cabecalho {
     display: flex;
-    position: fixed;
-    width: 90%;
     justify-content: space-between;
     align-items: center;
     background-color: #15191C;
@@ -98,9 +96,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #15191C;
-    width: 75vw;
+    width: 45vw;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     left: -100vw;
     transition: .25s;
 }
