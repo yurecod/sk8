@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #444444;
+    padding-top: 30px;
+    padding-left: 25rem;
+    padding-right: 20rem;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.um {
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
+
+.dois {
+    background-color: #74dfb4;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
+
+.tres {
+    background-color: #74dfb4;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
+
+.quatro {
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
+
+.cinco {
+    background-color: orangered;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
+
+.seis {
+    background-color: yellow;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
+
+.sete {
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
+
+.oito {
+    background-color: yellow;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
+
+.nove {
+    background-color: pink;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    grid-column: span 1;
+}
